@@ -1,158 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <meta
-            name="description"
-            content="Portafolio web de Tomas Mendoza"
-        />
-        <link
-            rel="stylesheet"
-            href="styles.css"
-        />
-        <title>Portafolio</title>
-    </head>
-    <body>
-        <header>
-            <nav
-                class="navbar"
-                id="navbar"
-            >
-                <ul>
-                    <li class="links links-reference">
-                        <a
-                            href="#welcome-section"
-                            id="profile-link"
-                            >About</a
-                        >
-                    </li>
-                    <li class="links links-reference">
-                        <a
-                            href="#projects"
-                            id="profile-link"
-                            >Work</a
-                        >
-                    </li>
-                    <li class="links links-reference">
-                        <a
-                            href="#contact"
-                            id="profile-link"
-                            >Contact</a
-                        >
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section
-            id="welcome-section"
-            class="welcome-section"
-        >
-            <h1 class="title-section">Hola! Soy Tomas Mendoza</h1>
-            <p>a web developer</p>
-        </section>
-        <section id="projects">
-            <h2 class="title-section">These are some of my projects</h2>
-            <div class="projects-section">
-                <a
-                    href="https://calculator-nine-steel.vercel.app/"
-                    target="_blank"
-                    ><img
-                        src="./img/calculadora.png"
-                        alt="Imagen de proyecto calculadora"
-                        class="project-img"
-                        loading="lazy"
-                    />
-                    <p class="project-tile">Calculadora</p>
-                </a>
-                <a
-                    href="https://basic-form-delta.vercel.app/"
-                    target="_blank"
-                    ><img
-                        src="./img/Form.png"
-                        alt="Imagen de proyecto form"
-                        class="project-img"
-                        loading="lazy"
-                    />
-                    <p class="project-tile">Formulario</p>
-                </a>
-                <a
-                    href="https://page-tribute-a-messi.vercel.app/"
-                    target="_blank"
-                    ><img
-                        src="./img/Page-tribute.png"
-                        alt="Imagen de proyecto page tribute"
-                        class="project-img"
-                        loading="lazy"
-                    />
-                    <p class="project-tile">Page tribute</p>
-                </a>
-                <a
-                    href="https://leopoldo109.github.io/-2-de-carisma/views/"
-                    target="_blank"
-                    ><img
-                        src="./img/-2.png"
-                        alt="Imagen de proyecto -2 de carisma"
-                        class="project-img"
-                        loading="lazy"
-                    />
-                    <p class="project-tile">-2-de-carisma</p>
-                </a>
-                <a
-                    href="https://technical-documentation-omega.vercel.app/"
-                    target="_blank"
-                    ><img
-                        src="./img/Technical.png"
-                        alt=""
-                        class="project-img"
-                        loading="lazy"
-                    />
-                    <p class="project-tile">Technical Documentation</p>
-                </a>
-                <a
-                    href="#"
-                    target="_blank"
-                    ><img
-                        src="https://images.pexels.com/photos/3934623/pexels-photo-3934623.jpeg?cs=srgb&dl=pexels-ave-calvar-martinez-3934623.jpg&fm=jpg"
-                        alt=""
-                        loading="lazy"
-                        class="project-img"
-                    />
-                    <p class="project-tile">black</p>
-                </a>
-            </div>
-        </section>
-        <section id="contact">
-            <h1 class="title-section">Puedes encontrarme en...</h1>
-            <ul class="social-links">
-                <li class="links social-link">
-                    <a
-                        href="https://github.com/leopoldo109"
-                        id="#profile-link"
-                        target="_blank"
-                        >Github</a
-                    >
-                </li>
-                <li class="links social-link">
-                    <a
-                        href="https://www.linkedin.com/in/tomas-ismael-mendoza-30b141258/"
-                        id="#profile-link"
-                        target="_blank"
-                        >Linkedin</a
-                    >
-                </li>
-                <li class="links social-link">
-                    <a
-                        href="#"
-                        id="#profile-link"
-                        target="_blank"
-                        >Gmail</a
-                    >
-                </li>
-            </ul>
-        </section>
-    </body>
-</html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portafolio web de Tomas Mendoza"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Portafolio | Tomas Mendoza</title>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <ul>
+      <li class="links"><a href="#welcome-section">About</a></li>
+      <li class="links"><a href="#projects">Proyectos</a></li>
+      <li class="links"><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="welcome-section" class="welcome-section">
+  <h1 class="title-section">Hola, soy Tomás Mendoza</h1>
+  <p class="welcome-subtitle">Backend Developer | Java • Spring Boot • APIs REST</p>
+  <p class="welcome-bio">
+    Estudiante de Tecnicatura en Programación en la UNQ, apasionado por el desarrollo backend.
+    Trabajo con Java, Spring Boot, PostgreSQL, MongoDB y Neo4j, en equipos ágiles con Scrum y Jira.
+  </p>
+</section>
+
+<section id="projects">
+  <h2 class="title-section">Proyectos destacados</h2>
+
+  <div class="projects-section">
+
+    <div class="project-card">
+      <img src="./img/tempus.png" alt="Proyecto Tempus" class="project-img"/>
+      <h3>Tempus</h3>
+      <p>
+        API backend que genera combinaciones de horarios universitarios a partir
+        de oferta académica, evitando conflictos y optimizando la cursada.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Neo4j</span>
+        <span class="tag">Hibernate</span>
+        <span class="tag">Spring Security</span>
+        <span class="tag">Docker</span>
+        <span class="tag">CI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://tempus-henna.vercel.app/" target="_blank">Ver Demo</a>
+        <a href="https://github.com/tomasmendoza-unq/Tempus" target="_blank">Repo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./img/epersomnia.png" alt="Proyecto Epersomnia" class="project-img"/>
+      <h3>Epersomnia</h3>
+      <p>
+        API REST backend de un juego de rol onírico. Arquitectura en capas con
+        Java, Spring Boot, PostgreSQL, MongoDB, Neo4j y Elasticsearch.
+        Desarrollado en equipo aplicando GitFlow.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Neo4j</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">Elasticsearch</span>
+        <span class="tag">ELK Stack</span>
+        <span class="tag">Hibernate</span>
+        <span class="tag">Docker</span>
+      </div>
+      <div class="project-links">
+        <a href="https://epersomnia-frontend.vercel.app/" target="_blank">Ver Demo</a>
+        <a href="https://github.com/tomasmendoza-unq/Los-Royaleros" target="_blank">Repo</a>
+      </div>
+      <p class="project-note">* La demo requiere el servidor Spring corriendo localmente.</p>
+    </div>
+
+
+    <div class="project-card">
+      <img src="./img/reservo.png" alt="Proyecto Reservo" class="project-img"/>
+      <h3>Reservo</h3>
+      <p>
+        App web para alquiler de espacios para eventos. Desarrollada en equipo
+        con metodología Scrum a lo largo de 7 sprints, asumiendo roles rotativos
+        de Dev, Scrum Master y PO/Tester.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Jira</span>
+        <span class="tag">Scrum</span>
+      </div>
+      <div class="project-links">
+        <a href="https://proyecto-ingenieria-mu.vercel.app/" target="_blank">Ver Demo</a>
+        <a href="https://github.com/Matias-Francisco-Deo/Proyecto-Ingenieria" target="_blank">Repo</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title-section">Contacto</h2>
+  <ul class="social-links">
+    <li class="links"><a href="https://github.com/tomasmendoza-unq" target="_blank">GitHub</a></li>
+    <li class="links"><a href="https://www.linkedin.com/in/tomas-ismael-mendoza-30b141258/" target="_blank">LinkedIn</a></li>
+    <li class="links"><a href="/cdn-cgi/l/email-protection#10647d2124252327262650777d71797c3e737f7d">Email</a>
