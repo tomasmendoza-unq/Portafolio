@@ -1,0 +1,46 @@
+:root {
+    --color-navbar: #101116;
+    --color-welcome-section: #000e19;
+    --color-project: #0f1622;
+    --color-contact: #090d17;
+    --color-primary: white;
+    --color-secondary: #497add;
+}
+
+@media (dark) {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: 4px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.title-section {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
