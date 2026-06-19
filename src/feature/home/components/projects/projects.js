@@ -1,6 +1,11 @@
+import nxt from "../../assets/nxt.png";
+import tempus from "../../assets/tempus.png";
+import vozActiva from "../../assets/VozActiva.png";
+import epersomnia from "../../assets/epersomnia.png";
+
 export const projects = [
     {
-        srcImg: "src/assets/nxt.png",
+        srcImg: nxt,
         altText: "NXT Steps",
         tags: [
             "React",
@@ -17,7 +22,7 @@ export const projects = [
             "Plataforma e-commerce de zapatillas e indumentaria deportiva. Desarrollada con Java, Spring Boot, React y PostgreSQL, incluye panel administrativo, autenticación por roles y despliegue en producción con Docker y Railway.",
     },
     {
-        srcImg: "src/assets/tempus.png",
+        srcImg: tempus,
         altText: "Tempus",
         tags: [
             "React",
@@ -37,7 +42,7 @@ export const projects = [
             "API backend que genera combinaciones de horarios universitarios a partir de oferta académica, evitando conflictos y optimizando la cursada. Con cobertura de tests unitarios con JUnit.",
     },
     {
-        srcImg: "src/assets/VozActiva.png",
+        srcImg: vozActiva,
         altText: "Voz Activa",
         tags: [
             "React",
@@ -57,7 +62,7 @@ export const projects = [
             "CMS para gestión y publicación de testimonios en el sector EdTech. Incluye roles diferenciados, integración con YouTube y Cloudinary, y persistencia con PostgreSQL, MongoDB y Elasticsearch.",
     },
     {
-        srcImg: "src/assets/epersomnia.png",
+        srcImg: epersomnia,
         altText: "Epersomnia",
         tags: [
             "Spring Boot",
