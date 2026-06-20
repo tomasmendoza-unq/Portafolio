@@ -19,6 +19,21 @@ export const Welcome = () => {
                 Busco oportunidades para asumir desafíos técnicos y aportar
                 valor real.
             </p>
+            <div className="welcome-actions">
+                <a
+                    href="#projects"
+                    className="btn btn-primary"
+                >
+                    Ver proyectos
+                </a>
+                <a
+                    href="https://res.cloudinary.com/dvkvlpq07/image/upload/v1781967593/CV_Tomas_Ismael_Mendoza_zgmpev.pdf"
+                    download
+                    className="btn btn-secondary"
+                >
+                    Descargar CV
+                </a>
+            </div>
         </section>
     );
 };
