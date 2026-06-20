@@ -17,7 +17,7 @@ export const projects = [
             "Plataforma e-commerce de zapatillas e indumentaria deportiva. Desarrollada con Java, Spring Boot, React y PostgreSQL, incluye panel administrativo, autenticación por roles y despliegue en producción con Docker y Railway.",
     },
     {
-        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/epersomnia_rjxodh.png",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966644/tempus_gytv1j.png",
         altText: "Tempus",
         tags: [
             "React",
