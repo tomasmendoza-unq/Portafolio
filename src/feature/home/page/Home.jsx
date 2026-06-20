@@ -1,5 +1,5 @@
 import { Contact } from "../components/contact/Contact.jsx";
-import { Projects } from "../components/projects/Projects.jsx";
+import { Projects } from "../../project/components/content/Projects.jsx";
 import { Welcome } from "../components/welcome/Welcome";
 import { HomeLayout } from "../layout/HomeLayout";
 

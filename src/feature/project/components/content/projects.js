@@ -1,6 +1,6 @@
 export const projects = [
     {
-        srcImg: "src/assets/nxt.png",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/nxt_d8w37e.png",
         altText: "NXT Steps",
         tags: [
             "React",
@@ -17,7 +17,7 @@ export const projects = [
             "Plataforma e-commerce de zapatillas e indumentaria deportiva. Desarrollada con Java, Spring Boot, React y PostgreSQL, incluye panel administrativo, autenticación por roles y despliegue en producción con Docker y Railway.",
     },
     {
-        srcImg: "src/assets/tempus.png",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/epersomnia_rjxodh.png",
         altText: "Tempus",
         tags: [
             "React",
@@ -37,7 +37,7 @@ export const projects = [
             "API backend que genera combinaciones de horarios universitarios a partir de oferta académica, evitando conflictos y optimizando la cursada. Con cobertura de tests unitarios con JUnit.",
     },
     {
-        srcImg: "src/assets/VozActiva.png",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/VozActiva_o5fk0c.png",
         altText: "Voz Activa",
         tags: [
             "React",
@@ -57,7 +57,7 @@ export const projects = [
             "CMS para gestión y publicación de testimonios en el sector EdTech. Incluye roles diferenciados, integración con YouTube y Cloudinary, y persistencia con PostgreSQL, MongoDB y Elasticsearch.",
     },
     {
-        srcImg: "src/assets/epersomnia.png",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/epersomnia_rjxodh.png",
         altText: "Epersomnia",
         tags: [
             "Spring Boot",

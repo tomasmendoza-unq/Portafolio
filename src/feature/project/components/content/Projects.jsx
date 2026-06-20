@@ -1,4 +1,4 @@
-import { CardProject } from "../../../project/components/card/CardProject";
+import { CardProject } from "../card/CardProject.jsx";
 import { projects } from "./projects.js";
 import "./style/Projects.css";
 
