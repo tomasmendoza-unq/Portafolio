@@ -1,0 +1,71 @@
+---
+import Tags from '../tags/Tags.astro';
+
+
+
+interface Props {
+    srcImg: string;
+    altText: string;
+    tags: string[];
+    linkDemo: string;
+    linkRepo: string;
+    nameProject: string;
+    descriptionProject: string;
+}
+const { srcImg, altText, tags, linkDemo, linkRepo, nameProject, descriptionProject } = Astro.props;
+---
+
+<article class="project-card">
+    <img src={srcImg} alt={altText} class="project-img" />
+    <h3>{nameProject}</h3>
+    <p>{descriptionProject}</p>
+    <div class="project-tags">
+        {tags.map((tag) => (
+            <Tags name={tag} />
+        ))}
+    </div>
+    <div class="project-links">
+        <a href={linkDemo} target="_blank">Ver Demo</a>
+        <a href={linkRepo} target="_blank">Repo</a>
+    </div>
+</article>
+
+<style>
+    .project-card {
+        background: #1a2332;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: transform 0.2s;
+    }
+    .project-card:hover {
+        transform: scale(1.03);
+    }
+    .project-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .project-card h3 {
+        color: white;
+        margin: 1rem 0;
+    }
+    .project-card p {
+        color: #ccc;
+        font-size: 0.9rem;
+    }
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+    .project-links {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .project-links a {
+        color: #497add;
+        font-weight: bold;
+    }
+</style>
