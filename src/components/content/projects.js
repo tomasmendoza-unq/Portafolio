@@ -17,24 +17,21 @@ export const projects = [
             "Plataforma e-commerce de zapatillas e indumentaria deportiva. Desarrollada con Java, Spring Boot, React y PostgreSQL, incluye panel administrativo, autenticación por roles y despliegue en producción con Docker y Railway.",
     },
     {
-        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966644/tempus_gytv1j.png",
-        altText: "Tempus",
-        tags: [
-            "React",
-            "Javascript",
-            "Spring Boot",
-            "SQL",
-            "JUnit",
-            "Neo4j",
-            "Docker",
-            "Hibernate",
-            "Spring Security",
-        ],
-        linkDemo: "https://tempus-henna.vercel.app/",
-        linkRepo: "https://github.com/tomasmendoza-unq/Tempus",
-        nameProject: "Tempus",
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1793388024/iPhone-14-Pro-902x852_emyvxe.png",
+        altText: "Gestor Agronomía",
+        tags: ["React", "Typescript", "Redux", "Spring Boot"],
+        nameProject: "Gestor Agronomía",
         descriptionProject:
-            "API backend que genera combinaciones de horarios universitarios a partir de oferta académica, evitando conflictos y optimizando la cursada. Con cobertura de tests unitarios con JUnit.",
+            "Sistema B2B de gestión y cotización agrícola para presupuestos dinámicos. Desarrollé el backend en Spring Boot que sincroniza las listas de precios de ~20 proveedores, con condiciones comerciales y formas de pago independientes, y el frontend en React, TypeScript y Redux con flujos multi-step. Opera con más de 50 clientes.",
+    },
+    {
+        srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1793386944/iPhone-14-Pro-902x852_xhznrt.png",
+        altText: "Star Cases",
+        tags: ["Astro", "React", "Spring Boot", "PostgreSQL"],
+        linkDemo: "https://client-henna-zeta.vercel.app/",
+        nameProject: "Star Cases",
+        descriptionProject:
+            "E-commerce B2C de accesorios para celulares. Desarrollé la API REST en Spring Boot con PostgreSQL para el catálogo, variantes de producto y navegación por categorías, y el frontend con Astro y React: componentes modulares, paginación por scroll y carrusel dinámico de novedades.",
     },
     {
         srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/VozActiva_o5fk0c.png",
@@ -54,7 +51,7 @@ export const projects = [
         linkRepo: "https://github.com/No-Country-simulation/s03-26-equipo-01",
         nameProject: "Voz Activa",
         descriptionProject:
-            "CMS para gestión y publicación de testimonios en el sector EdTech. Incluye roles diferenciados, integración con YouTube y Cloudinary, y persistencia con PostgreSQL, MongoDB y Elasticsearch.",
+            "CMS para el sector EdTech. Como Team Leader Backend, diseñé las APIs REST, lideré la arquitectura de persistencia múltiple (PostgreSQL, MongoDB, Elasticsearch) y las integraciones con YouTube y Cloudinary, supervisando y mentoreando al equipo de desarrollo.",
     },
     {
         srcImg: "https://res.cloudinary.com/dvkvlpq07/image/upload/v1781966645/epersomnia_rjxodh.png",
@@ -74,6 +71,6 @@ export const projects = [
         linkRepo: "https://github.com/tomasmendoza-unq/Los-Royaleros",
         nameProject: "Epersomnia",
         descriptionProject:
-            "API REST backend de un juego de rol onírico. Arquitectura en capas con Java, Spring Boot, PostgreSQL, MongoDB, Neo4j y Elasticsearch. Desarrollado en equipo aplicando GitFlow, con tests unitarios e integración con JUnit.",
+            "API REST backend de un juego de rol onírico. Como desarrollador backend del equipo, trabajé en la arquitectura en capas y la implementación de persistencia políglota (PostgreSQL, MongoDB, Neo4j, Elasticsearch) aplicando GitFlow y testing con JUnit.",
     },
 ];
